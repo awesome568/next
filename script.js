@@ -15,7 +15,7 @@ fetch('history.txt')
     }
 
     // Update UI after loading all sentences
-    document.body.innerText = "Loading error 508, check history to fix";
+    document.body.innerText = "Loading error 508, check your search history to fix";
   })();
 })
 .catch(error => {
